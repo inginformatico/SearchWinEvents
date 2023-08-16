@@ -14,11 +14,11 @@ if ($Verbose -eq "extended")
 {
    if ("" -eq $FileOutput)
    {
-     Get-WinEvent -ComputerName $computerName -FilterHashtable @{Logname=$eventLogName;ID=$eventID;StartTime=$startTime;EndTime=$endTime} | Select-Object TimeCreated,ID,Message | Format-Table -AutoSize
+     Get-WinEvent -ComputerName $computerName -FilterHashtable @{Logname=$eventLogName;ID=$eventID;StartTime=$startTime;EndTime=$endTime} | Select-Object TimeCreated,ID,Message | Format-Table -AutoSize -Wrap
    }
    else
    {
-     Get-WinEvent -ComputerName $computerName -FilterHashtable @{Logname=$eventLogName;ID=$eventID;StartTime=$startTime;EndTime=$endTime} | Select-Object TimeCreated,ID,Message | Format-Table -AutoSize | Out-File -FilePath $FileOutput
+     Get-WinEvent -ComputerName $computerName -FilterHashtable @{Logname=$eventLogName;ID=$eventID;StartTime=$startTime;EndTime=$endTime} | Select-Object TimeCreated,ID,Message | Format-Table -AutoSize -Wrap | Out-File -FilePath $FileOutput
    }
 }
 else{
