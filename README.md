@@ -14,7 +14,6 @@ En el fichero "Logs and EventIds List.txt" tenéis un listado de eventos crític
 # Pendiente de desarrollar
 
 - Convertir la lista de logs y eventos en un fichero de configuración que el script lea para obtener todos los eventos criticos
-- Que el script escriba los resultados en un fichero
 
 # Agradecimientos 
 
