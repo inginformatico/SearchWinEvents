@@ -8,12 +8,12 @@ $eventLogName = Nombre del log de eventos (system, application, setup, security)
 
 $eventID = Lista de ids de eventos que te interesan separados por coma ("1000","1001","1002")
 
-# Lista de logs y eventids críticos quew se deberían obtener para investigar un CiberIncidente
+# Lista de logs y eventids críticos que se deberían obtener para investigar un CiberIncidente
 En el fichero "Logs and EventIds List.txt" tenéis un listado de eventos críticos de seguridad
 
 # Pendiente de desarrollar
 
-- Convertir la lista de logs y eventos en un fichero de configuración que el script lea para obtener todos los evtnos criticos
+- Convertir la lista de logs y eventos en un fichero de configuración que el script lea para obtener todos los eventos criticos
 - Que el script escriba los resultados en un fichero
 
 # Agradecimientos 
