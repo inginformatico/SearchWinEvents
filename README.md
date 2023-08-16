@@ -2,6 +2,9 @@
 Script powershell para obtener la lista de últimos eventos de un LogEvent y EventId en Windows
 
 # Parámetros del Script
+Si pasamos parametro -Verbose extended obtiene informacion completa sobre cada evento, sino solo un resumen
+
+# Variables del Script
 $computerName = Nombre de la máquina objetivo
 
 $eventLogName = Nombre del log de eventos (system, application, setup, security)
