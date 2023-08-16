@@ -1,0 +1,30 @@
+Type 										                        Event ID 																	                              Event Logs 
+
+Create Services 							                  7030,7045																	                              System 
+Command Line Auditing 						              4688																		                                Security 
+Create User 								                    4720,4722,4724,4728 														                        Security 
+Add User to Group 							                4732																		                                Security 
+Clear Event Log 							                  1102																		                                Security 
+Create RDP Certificate 						              1056																		                                System 
+Insert USB 									                    7045,10000, 10001, 10100, 20001, 20002, 20003, 24576, 24577, 24579			System 
+Disable Firewall 							                  2003																		                                Firewall 
+Applocker									                      8003, 8004, 8006, 8007 														                      AppLocker 
+EMET										                        2																			                                  EMET
+Logon Success					 			                    4624																		                                Security 
+(Logon Type 3,10)
+Logon Failed				 				                    4625																		                                Security 
+(Logon Type 3,10)
+service terminated unexpectedly 			          7034																		                                System 
+A service was installed in the system 		      4697																		                                Security 
+User Account Locked Out 					              4740																		                                Security 
+User Account Unlocked Out 					            4767																		                                Security 
+File Access / Deletion 						              4663,4659,4660 																                          Security 
+Terminal service session reconnected 		        4778																		                                Security 
+Terminal service session disconnected 		      4779																		                                Security 
+User Initiated Logoff 						              4647																		                                Security 
+A directory service object was created		      5137																		                                Security 
+A directory service object was modified 	      5136																		                                Security 
+Permission change with old & new attributes     4670																		                                Security 
+Service Start Type Change 					            7040																		                                System 
+(disabled, manual. Automatic)
+Service Start / Stop 						                7036																		                                System 
