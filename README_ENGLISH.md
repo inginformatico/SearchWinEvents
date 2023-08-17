@@ -1,4 +1,4 @@
-#SearchWinEvents
+# SearchWinEvents
 Powershell script to get the list of last events from a LogEvent and EventId on Windows
 
 # Script Parameters
