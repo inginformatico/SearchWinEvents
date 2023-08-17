@@ -5,7 +5,9 @@ Script powershell para obtener la lista de últimos eventos de una serie de LogE
 
 # Parámetros del Script
 Si pasamos el parametro computerName obtiene los datos de esa maquina sino de la maquina local
+
 Si pasamos parametro -Verbose "extended" obtiene informacion completa sobre cada evento, sino solo un resumen
+
 Si pasamos el parametro FileOutput escribe los resultados en el fichro sino en consola
 
 El Script lee del fichero eventlist.json la lista de eventlogs y eventids que debe obtener
