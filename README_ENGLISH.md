@@ -1,5 +1,5 @@
 # SearchWinEvents
-Powershell script to get the list of last events from a LogEvent and EventId on Windows
+Powershell script to get list of last events from a series of LogEvents and EventIds on Windows
 
 # Script Parameters
 If we pass the parameter computerName it obtains the data of that machine but of the local machine
