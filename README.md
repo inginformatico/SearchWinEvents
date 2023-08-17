@@ -1,3 +1,5 @@
+[Readme in English: https://github.com/inginformatico/SearchWinEvents/blob/main/README_ENGLISH.md]
+
 # SearchWinEvents
 Script powershell para obtener la lista de últimos eventos de un LogEvent y EventId en Windows
 
