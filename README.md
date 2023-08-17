@@ -10,6 +10,22 @@ Si pasamos el parametro FileOutput escribe los resultados en el fichro sino en c
 
 El Script lee del fichero eventlist.json la lista de eventlogs y eventids que debe obtener
 
+# Instalación
+Descarga SearchWinEvents.ps1
+Descarga eventlist.json
+Edita eventlist.json con la lista de eventlogs y eventids deseados
+
+# Ejemplos de uso
+
+Resultados por consola de ordenador local
+.\SearchWinEvents.ps1
+
+Resultados volcados al fichero results.txt de ordenador local
+.\SearchWinEvents.ps1 -FileOutput results.txt
+
+Resultados volcados al fichero results.txt de ordenador local informe extendido
+.\SearchWinEvents.ps1 -FileOutput results.txt -Verbose extended
+
 # Lista de logs y eventids críticos que se deberían obtener para investigar un CiberIncidente
 En el fichero "Logs and EventIds List.txt" tenéis un listado de eventos críticos de seguridad
 
