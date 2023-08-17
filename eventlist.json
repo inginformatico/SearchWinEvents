@@ -1,6 +1,13 @@
 [
 {
 
+"type": "Special privileges assigned to new logon",
+"EventIDs": "4672",
+"EventLog": "Security" 
+
+},
+{
+
 "type": "Logon Success",
 "EventIDs": "4624",
 "EventLog": "Security" 
