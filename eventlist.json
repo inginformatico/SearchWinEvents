@@ -1,0 +1,16 @@
+[
+{
+
+"type": "Logon Success",
+"EventIDs": "4624",
+"EventLog": "Security" 
+
+},
+{
+
+"type": "Logon Failed",
+"EventIDs": "4625",
+"EventLog": "Security" 
+
+}
+] 
