@@ -1,26 +1,17 @@
 [Readme in English: https://github.com/inginformatico/SearchWinEvents/blob/main/README_ENGLISH.md]
 
 # SearchWinEvents
-Script powershell para obtener la lista de últimos eventos de un LogEvent y EventId en Windows
+Script powershell para obtener la lista de últimos eventos de una serie de LogEvents y EventIds en Windows
 
 # Parámetros del Script
-Si pasamos parametro -Verbose extended obtiene informacion completa sobre cada evento, sino solo un resumen
+Si pasamos el parametro computerName obtiene los datos de esa maquina sino de la maquina local
+Si pasamos parametro -Verbose "extended" obtiene informacion completa sobre cada evento, sino solo un resumen
+Si pasamos el parametro FileOutput escribe los resultados en el fichro sino en consola
 
-# Variables del Script
-$computerName = Nombre de la máquina objetivo
-
-$eventLogName = Nombre del log de eventos (system, application, setup, security)
-
-$eventID = Lista de ids de eventos que te interesan separados por coma ("1000","1001","1002")
-
-$FileOutput = Ruta y nombre del fichero en el que se escriben los eventos, si lo dejamos vacío escribe en consola
+El Script lee del fichero eventlist.json la lista de eventlogs y eventids que debe obtener
 
 # Lista de logs y eventids críticos que se deberían obtener para investigar un CiberIncidente
 En el fichero "Logs and EventIds List.txt" tenéis un listado de eventos críticos de seguridad
-
-# Pendiente de desarrollar
-
-- Convertir la lista de logs y eventos en un fichero de configuración que el script lea para obtener todos los eventos criticos
 
 # Agradecimientos 
 
